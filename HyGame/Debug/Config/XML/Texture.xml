@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<texture>
+	
+	<img id = "Menu-Background" 		path = "Resource\Image\menu_background.jpg"> </img>
+
+	<img id = "MenuItem-Start-Normal"	path = "Resource\Image\MenuItem_Start_Normal.png"> </img>
+	<img id = "MenuItem-Start-Focus"	path = "Resource\Image\MenuItem_Start_Focus.png"> </img>
+	<img id = "MenuItem-Jiemi-Normal"	path = "Resource\Image\MenuItem_Jiemi_Normal.png"> </img>
+	<img id = "MenuItem-Jiemi-Focus"	path = "Resource\Image\MenuItem_Jiemi_Focus.png"> </img>
+	<img id = "MenuItem-Setting-Normal"	path = "Resource\Image\MenuItem_Setting_Normal.png"> </img>
+	<img id = "MenuItem-Setting-Focus"	path = "Resource\Image\MenuItem_Setting_Focus.png"> </img>
+	<img id = "MenuItem-Exit-Normal"	path = "Resource\Image\MenuItem_Exit_Normal.png"> </img>
+	<img id = "MenuItem-Exit-Focus"		path = "Resource\Image\MenuItem_Exit_Focus.png"> </img>
+	<img id = "cursor-normal"			path = "Resource\Image\cursor\cursor_normal.png"> </img>
+	<img id = "cursor-press"			path = "Resource\Image\cursor\cursor_press.png"> </img>
+
+</texture> 

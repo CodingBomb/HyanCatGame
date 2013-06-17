@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{54d7cbf7-70d5-42a5-9ea5-0a06869ab1e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{f8d654d6-7aef-4a34-ba1d-0cc3dd82c585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprite">
+      <UniqueIdentifier>{80373ee5-be56-4b61-8cfa-9c63a040ae36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{bee2a688-034e-470d-8f91-98144d258925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Screen">
+      <UniqueIdentifier>{fbc7fce9-586f-402f-8685-c5a9cca2e977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper">
+      <UniqueIdentifier>{91a67613-0ec2-4a88-9432-b069493da1c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{839f3e6a-49f4-43e2-a963-ede299fa4d80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\Tinyxml">
+      <UniqueIdentifier>{d6727213-99f5-4299-9cbb-a7abc77e1cc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\Hge">
+      <UniqueIdentifier>{5a77749b-a267-4d23-8498-d82a15d59e8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{f2157445-bfc1-4980-9a20-84b3def477ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool">
+      <UniqueIdentifier>{5e9c0b68-48d2-473e-aec7-12dbaf7d6b55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool\XML">
+      <UniqueIdentifier>{4955627a-41cb-4e77-ae4e-09c9c16086c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool\Pool">
+      <UniqueIdentifier>{c626b8a3-3a9b-49fc-b777-4ebcd6fb4fa6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Define.h" />
+    <ClInclude Include="Helper\Helper.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\Singleton.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libs\tinyxml\tinyxml.h">
+      <Filter>lib\Tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libs\hge\include\hge.h">
+      <Filter>lib\Hge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libs\hge\include\hgeanim.h">
+      <Filter>lib\Hge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libs\hge\include\hgecolor.h">
+      <Filter>lib\Hge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libs\hge\include\hgedistort.h">
+      <Filter>lib\Hge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libs\hge\include\hgefont.h">
+      <Filter>lib\Hge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libs\hge\include\hgegui.h">
+      <Filter>lib\Hge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libs\hge\include\hgeguictrls.h">
+      <Filter>lib\Hge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libs\hge\include\hgeparticle.h">
+      <Filter>lib\Hge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libs\hge\include\hgerect.h">
+      <Filter>lib\Hge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libs\hge\include\hgeresource.h">
+      <Filter>lib\Hge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libs\hge\include\hgesprite.h">
+      <Filter>lib\Hge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libs\hge\include\hgestrings.h">
+      <Filter>lib\Hge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Libs\hge\include\hgevector.h">
+      <Filter>lib\Hge</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameEngine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ScreenEngine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen\Screen.h">
+      <Filter>Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller\GameController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\XML\XMLTextureDef.h">
+      <Filter>Tool\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\XML\XMLTextureParse.h">
+      <Filter>Tool\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\XML\XMLList.h">
+      <Filter>Tool\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\XML\XMLListDef.h">
+      <Filter>Tool\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\XML\XMLParseDef.h">
+      <Filter>Tool\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen\MenuScreen.h">
+      <Filter>Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\TextureObject.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\TextureEngine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GraphicsEngine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool\Pool\TexturePool.h">
+      <Filter>Tool\Pool</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\InputEngine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Helper\Helper.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libs\tinyxml\tinyxml.cpp">
+      <Filter>lib\Tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libs\tinyxml\tinyxmlerror.cpp">
+      <Filter>lib\Tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Libs\tinyxml\tinyxmlparser.cpp">
+      <Filter>lib\Tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameEngine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ScreenEngine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller\GameController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\XML\XMLTextureParse.cpp">
+      <Filter>Tool\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\XML\XMLList.cpp">
+      <Filter>Tool\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen\MenuScreen.cpp">
+      <Filter>Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\TextureObject.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\TextureEngine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GraphicsEngine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool\Pool\TexturePool.cpp">
+      <Filter>Tool\Pool</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\InputEngine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

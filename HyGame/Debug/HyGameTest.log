@@ -1,0 +1,29 @@
+HGE Started..
+
+HGE version: 1.80
+Date: 17.06.2013, 15:49:13
+
+Application: HyGameTest
+OS: Windows 6.1.7601
+Memory: 4151408K total, 1480756K free
+
+D3D Driver: igdumdx32.dll
+Description: Mobile Intel(R) 4 Series Express Chipset Family
+Version: 8.15.10.2555
+Mode: 800 x 600 x X8R8G8B8
+
+Sound Device: ÑïÉùÆ÷ (High Definition Audio Éè±¸)
+Sample rate: 44100
+
+Init done.
+
+Can't load resource: Resource\img\MenuItem_Exit_Focus.png
+Can't load resource: Resource\img\MenuItem_Exit_Normal.png
+Can't load resource: Resource\img\MenuItem_Jiemi_Focus.png
+Can't load resource: Resource\img\MenuItem_Jiemi_Normal.png
+Can't load resource: Resource\img\MenuItem_Setting_Focus.png
+Can't load resource: Resource\img\MenuItem_Setting_Normal.png
+Can't load resource: Resource\img\MenuItem_Start_Focus.png
+Can't load resource: Resource\img\MenuItem_Start_Normal.png
+Can't load resource: Resource\img\cursor\cursor_normal.png
+Can't load resource: Resource\img\cursor\cursor_press.png

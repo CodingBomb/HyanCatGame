@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{75FCA1C0-0940-48F7-BDC9-BDB56D5D84D0}</ProjectGuid>
+    <RootNamespace>HyGame</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Libs\hge\include\hge.h" />
+    <ClInclude Include="..\Libs\hge\include\hgeanim.h" />
+    <ClInclude Include="..\Libs\hge\include\hgecolor.h" />
+    <ClInclude Include="..\Libs\hge\include\hgedistort.h" />
+    <ClInclude Include="..\Libs\hge\include\hgefont.h" />
+    <ClInclude Include="..\Libs\hge\include\hgegui.h" />
+    <ClInclude Include="..\Libs\hge\include\hgeguictrls.h" />
+    <ClInclude Include="..\Libs\hge\include\hgeparticle.h" />
+    <ClInclude Include="..\Libs\hge\include\hgerect.h" />
+    <ClInclude Include="..\Libs\hge\include\hgeresource.h" />
+    <ClInclude Include="..\Libs\hge\include\hgesprite.h" />
+    <ClInclude Include="..\Libs\hge\include\hgestrings.h" />
+    <ClInclude Include="..\Libs\hge\include\hgevector.h" />
+    <ClInclude Include="..\Libs\tinyxml\tinyxml.h" />
+    <ClInclude Include="Controller\GameController.h" />
+    <ClInclude Include="Define.h" />
+    <ClInclude Include="Engine\GameEngine.h" />
+    <ClInclude Include="Engine\GraphicsEngine.h" />
+    <ClInclude Include="Engine\InputEngine.h" />
+    <ClInclude Include="Engine\ScreenEngine.h" />
+    <ClInclude Include="Engine\TextureEngine.h" />
+    <ClInclude Include="Helper\Helper.h" />
+    <ClInclude Include="Helper\Singleton.h" />
+    <ClInclude Include="Object\TextureObject.h" />
+    <ClInclude Include="Screen\MenuScreen.h" />
+    <ClInclude Include="Screen\Screen.h" />
+    <ClInclude Include="Tool\Pool\TexturePool.h" />
+    <ClInclude Include="Tool\XML\XMLList.h" />
+    <ClInclude Include="Tool\XML\XMLListDef.h" />
+    <ClInclude Include="Tool\XML\XMLParseDef.h" />
+    <ClInclude Include="Tool\XML\XMLTextureDef.h" />
+    <ClInclude Include="Tool\XML\XMLTextureParse.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Libs\tinyxml\tinyxml.cpp" />
+    <ClCompile Include="..\Libs\tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="..\Libs\tinyxml\tinyxmlparser.cpp" />
+    <ClCompile Include="Controller\GameController.cpp" />
+    <ClCompile Include="Engine\GameEngine.cpp" />
+    <ClCompile Include="Engine\GraphicsEngine.cpp" />
+    <ClCompile Include="Engine\InputEngine.cpp" />
+    <ClCompile Include="Engine\ScreenEngine.cpp" />
+    <ClCompile Include="Engine\TextureEngine.cpp" />
+    <ClCompile Include="Helper\Helper.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Object\TextureObject.cpp" />
+    <ClCompile Include="Screen\MenuScreen.cpp" />
+    <ClCompile Include="Tool\Pool\TexturePool.cpp" />
+    <ClCompile Include="Tool\XML\XMLList.cpp" />
+    <ClCompile Include="Tool\XML\XMLTextureParse.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

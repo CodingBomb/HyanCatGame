@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xmllist>
+<xml id = "TextureResource" path = "Config\XML\Texture.xml" type = "Texture" />
+</xmllist>
